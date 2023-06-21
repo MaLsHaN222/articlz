@@ -1,0 +1,67 @@
+.contactMain{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    padding: 40px;
+}
+
+
+
+.contactMain img{
+    width: 45vw;
+    height: auto;
+}
+.contactForm *{
+    display: block;
+}
+.contactForm{
+    width: 40%;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: auto;
+
+}
+
+.contactForm h1{
+    font-size: 4rem;
+    padding-bottom: 10%;
+    color: #f9613f;
+}
+
+.contactForm span{
+    background-color:#223a7a ;
+    color: white;
+    margin: 5%;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width:430px){
+    .contactMain{
+        display: block;
+        padding: 0;
+    }
+    .contactMain img{
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+        margin: 0 auto;
+        display: block;
+    }
+    .contactForm h1{
+        font-size: 2.3rem;
+    }
+    .contactForm{
+        width: 100vw;
+        font-size: 1.1rem;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .contactForm span{
+        margin-top: 5%;
+    }
+}

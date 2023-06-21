@@ -1,0 +1,73 @@
+.thumb{
+    background-color: white;
+    width: 90%;
+
+    max-width: 400px;
+    margin: 10px auto 30px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+.thumbnail {
+    width: 100%;
+    background-color: gray;
+    height: 10%;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.postfunc{
+    width: 50%;
+    margin: 3% auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postfunc img {
+    width: 25px;
+    height: auto;
+}
+.postfunc img:hover{
+    cursor: pointer;
+}
+
+.load{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:800px) {
+    .thumb{
+    margin: 0 auto;
+    height: 80%;
+    min-width: 300px;
+    margin: 0 20px ;
+    }
+    .thumbnail{
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:430px) {
+    .thumb{
+        min-width: 90%;
+        margin: 5% 5%;
+    }
+
+    .thumbnail{
+        min-width: 100%;
+        min-height: 50%
+    }
+
+    .thumb h4{
+        padding: 10px;
+    }
+}

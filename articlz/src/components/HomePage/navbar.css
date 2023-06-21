@@ -1,0 +1,75 @@
+nav{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 10vh;
+    background-color: #36372f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    position: fixed;
+    padding: 0 20px;
+    z-index: 1;
+}
+.remove{
+    text-decoration: none;
+    color: white;
+}
+nav span{
+    margin: 2vw;
+    border: none;
+}
+
+nav h1{
+    font-size: 3rem;
+    font-style: italic;
+}
+nav span:hover , .menuBar span:hover{
+    cursor: pointer;
+    background-color: #9a997f;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+nav img {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    
+}
+
+.menuBar{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    color: white;
+    margin: 10vh 0;
+}
+
+.close{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.linkSec{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    background-color: #36372f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.linkSec span{
+    display: block;
+    margin: 20px 0;
+}

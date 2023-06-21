@@ -1,0 +1,186 @@
+.addForm{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+
+.addForm h1{
+    text-align: center;
+    margin: 3% 0;
+}
+
+.sec1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh ;
+}
+
+.sec1 label{
+    font-weight: 600;
+    margin-right: 10px;
+    
+}
+.inp{
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+
+.details{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0;
+    margin-bottom:20px ;
+}
+
+
+.imagefield{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.imagefield img {
+    margin: 0 20px;
+}
+
+
+input[type="file"]::file-selector-button {
+    width: 100px;
+    padding: 10px;
+  }
+
+
+.details div img {
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.details div label{
+    margin-right: 10px;
+}
+
+.type{
+    width: 300px;
+    padding: 10px;
+}
+
+.sec2{
+    min-height: 400px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.sec2 input{
+    width: 200px;
+    
+}
+
+.sec2 label{
+    margin: 5% 0  10px;
+    font-weight: 600;
+}
+
+
+
+
+.ql-container{
+    height: 90%;
+    padding-bottom: 10px;
+    border: none;
+}
+
+
+.ql-toolbar  {
+    background-color: gray;
+    box-sizing: border-box;
+    height: 15%;
+    border: none;
+}
+
+
+
+.ql-formats * {
+    display: block;
+    margin: 0;
+}
+.ql-snow{
+    border:  none !important;
+}
+
+.textArea{
+    width: 98%;
+    height:70%;
+    color: white;
+}
+
+
+.handleBtn{
+    background-color: green;
+    margin:  2vh auto ;
+}
+
+
+@media screen and (max-width:430px){
+    .addForm{
+        box-sizing: border-box;
+        padding: 0 0;
+        width: 90vw;
+        margin:  0 auto;
+        height: auto;
+    }
+    
+    .sec1 {
+        flex-direction: column;
+        align-items: start;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .sec2{
+        margin: 0 auto;
+   
+    }
+
+   
+    .ql-container{
+        max-height: 200px;
+        overflow: auto;
+        
+    }
+
+    .details{
+        flex-direction: column;
+        align-items: start;
+    }
+    .details div{
+        margin: 2% 0;
+    }
+    
+    .type , .inp{
+        display: block;
+        max-width: 90vw;
+        padding: 10px 5px;
+       
+    }
+
+    .imagefield{
+        display: block;
+    }
+    .imagefield img{
+        margin: 10px 10px 0 ;
+    }
+   
+    
+    
+}

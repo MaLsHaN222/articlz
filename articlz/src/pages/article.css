@@ -1,0 +1,88 @@
+.articleMain{
+    width: 100vw;
+    height: 90vh;
+    position: fixed;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.typeField{
+    position: fixed;
+    width: 15vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.typeField h2{
+    padding: 0 1%;
+}
+
+.types{
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+    text-align: center;
+}
+
+.types span{
+    display: block;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: lightsteelblue;
+    width: 70%;
+    margin: 10% auto;
+}
+
+.types span:hover{
+    cursor: pointer;
+}
+
+.articleArea{
+    width: 85vw;
+    height: 100vh;
+    margin-left: 15vw;
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 2% 1% 5%;
+   
+}
+
+@media screen and (max-width:800px) {
+    .articleMain{
+        position: absolute;
+        flex-direction: column;
+    }
+    .typeField{
+        position: relative;
+        width: 100vw;
+        height: 15vh;
+        padding: 0 ;
+        overflow: auto;
+    }
+
+    .types{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+
+    .types span {
+        width: auto;
+        padding: 10px 20px;
+        margin: 1% 1%;
+    }
+
+    .articleArea{
+        width: 100vw;
+        margin-left: 0;
+    }
+}

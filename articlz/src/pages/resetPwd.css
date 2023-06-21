@@ -1,0 +1,50 @@
+.resetMain{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetSec1{
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.resetMain .resetSec1 form {
+    display: flex;
+    margin: 20px auto ;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.resetMain .resetSec1 form input{
+    max-width: 500px;
+    width: 80%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+}
+.resetMain .resetSec1 button{
+    background-color: green;
+}
+
+
+@media screen and (max-width:450px) {
+    .resetSec1{
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .resetMain .resetSec1 form input{
+        width: 80%;
+    }
+}

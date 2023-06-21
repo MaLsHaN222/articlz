@@ -1,0 +1,133 @@
+.logSec{
+    width: 60vw;
+    height: 80vh;
+    margin: 10vh auto;
+    display: flex;
+    border: 3px solid #c5dcff;
+    border-radius: 20px  ;
+}
+
+.logSec img{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+.form{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 3% 5%;
+    background-color:#c5dcff;
+    border-radius: 0 20px 20px 0;
+}
+
+.form *{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.form h4{
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.form h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+}
+.form label{
+    margin-bottom: 2%;
+}
+
+.form input{
+    margin-bottom: 3%;
+    width: 90%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(226, 238, 248);
+}
+
+.form button {
+    margin: 10% auto 10%;
+    padding: 20px;
+    width: 70%;
+    background-color: #007dfb;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+button:active{
+    background-color: #a0cdff;
+}
+
+.form h3{
+    font-size: 1rem;
+    text-align: end;
+    margin-bottom: 5%;
+    cursor: pointer;
+    color: blue;
+}
+
+.form span{
+    display: inline;
+    color: blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+    .logSec{
+        width: 90vw;
+        height: 60vh;
+    }
+}
+
+
+
+@media screen and (max-width:430px){
+    .logSec{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: 0;
+        height: 100vh;
+        border-radius: 0;
+        border: none;
+        padding: 0;
+    }
+    .logSec img{
+        width: 100vw;
+        height: auto;
+        border-radius: 0;
+    }
+    .form{
+        box-sizing: border-box;
+        width: 100%;
+        height: 70%;
+        border-radius: 0;
+        width: 95vw;
+        height: auto;
+    }
+    .form h1{
+        font-size: 2rem;
+    }
+    .form h4{
+        font-size: 1.5rem;
+    }
+    .form button{
+        font-size: 14px;
+        padding: 10px;
+        width: 50%;
+    }
+    .form label{
+        margin: 1%;
+    }
+}

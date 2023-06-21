@@ -1,0 +1,46 @@
+.mainimg{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 50px blue ;
+    color: rgb(206, 200, 200);
+}
+
+.mainimg h1{
+    font-size: 10rem;
+}
+
+.mainimg h2{
+    font-size: 5rem;
+}
+
+.mainimg h3{
+    font-size: 3rem;
+}
+
+footer{
+    background-color: #36372f;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media  screen and (max-width:480px) {
+    .mainimg h1 {
+        font-size: 5rem;
+    }
+    .mainimg h3{
+        font-size: 2rem;
+    }
+    .mainimg h2{
+        font-size: 3rem;
+    }
+}
