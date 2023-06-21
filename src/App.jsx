@@ -1,7 +1,7 @@
 
 import User from './pages/user'
 import {BrowserRouter , Routes , Route} from 'react-router-dom'
-import { Articles, Home, Login, Register, ResetPwd } from './pages'
+import { Articles, Home, Login, Register, ResetPwd } from './pages/index.jsx'
 import { useEffect} from 'react'
 import { getuser } from './functions/getuser'
 import { getPosts } from './functions/getPosts'
